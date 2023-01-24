@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    border-radius: 10px;
+    border-right-style: double;
+    border-bottom-style: double;
 }
 
 .cell:hover  {
@@ -22,4 +22,12 @@ body {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
+}
+
+#none, #none-bottom {
+    border-right-style: none;
+}
+
+#bottom, #none-bottom {
+    border-bottom-style: none;
 }
