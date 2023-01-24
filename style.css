@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(#A0E8AF, #3AB795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cell:hover  {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
