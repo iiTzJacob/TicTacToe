@@ -11,11 +11,12 @@ body {
     align-items: center;
     border-right-style: double;
     border-bottom-style: double;
+    font-size: 3rem;
 }
 
 .cell:hover  {
     cursor: pointer;
-    background-color: gray;
+    background: linear-gradient(#b8f0c4, #58cbac);
 }
 
 .board {
